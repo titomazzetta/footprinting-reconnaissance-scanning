@@ -1,4 +1,4 @@
-# Unit 6 — Footprinting, Reconnaissance & Scanning
+#Footprinting, Reconnaissance & Scanning
 
 This repository contains a **controlled, authorized reconnaissance and network scanning assessment** conducted as part of **Unit 6: Footprinting, Reconnaissance, and Scanning**.
 
