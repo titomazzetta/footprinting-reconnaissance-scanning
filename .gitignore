@@ -1,2 +1,6 @@
 
 .DS_Store
+
+# Keep repo clean (run outputs)
+runs/*
+!runs/.gitkeep
