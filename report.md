@@ -10,7 +10,7 @@
 ---
 
 ## Executive Summary
-A structured footprinting → reconnaissance → scanning workflow was executed to identify externally exposed services and assess high-level risk themes. All findings are supported by reproducible command output.
+A structured footprinting → reconnaissance → scanning workflow was executed to identify externally exposed services and assess high-level risk themes from a defensive perspective. All findings are supported by reproducible command output.
 
 ---
 
@@ -21,8 +21,14 @@ A structured footprinting → reconnaissance → scanning workflow was executed 
 - "scanme.nmap.org" filetype:pdf
 - "scanme.nmap.org" "password"
 
+
 **Findings:**
-- (Add manual notes here)
+
+- Search results returned only publicly known, instructional references describing scanme.nmap.org as an authorized Nmap scanning practice host.
+
+- No indexed sensitive documents, credentials, configuration files, or other compromising content were discovered from these queries.
+
+- Conclusion: OSINT searches did not reveal any unintended public exposure beyond expected documentation.
 
 ---
 
