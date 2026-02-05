@@ -23,12 +23,12 @@ A structured footprinting → reconnaissance → scanning workflow was executed 
 
 
 **Findings:**
+- Search results returned only publicly known, instructional references describing `scanme.nmap.org` as an authorized Nmap scanning practice host.
+- No indexed sensitive documents, credentials, configuration files, or other compromising content were identified.
 
-- Search results returned only publicly known, instructional references describing scanme.nmap.org as an authorized Nmap scanning practice host.
+**Conclusion:**  
+OSINT searches did not reveal any unintended public exposure beyond expected documentation.
 
-- No indexed sensitive documents, credentials, configuration files, or other compromising content were discovered from these queries.
-
-- Conclusion: OSINT searches did not reveal any unintended public exposure beyond expected documentation.
 
 ---
 
@@ -75,10 +75,10 @@ Artifacts:
 
 | Port | Service | Likelihood (1–5) | Impact (1–5) | Score | Rating | Rationale |
 |---:|:---|:---:|:---:|:---:|:---:|:---|
-| 22 | ssh | 3 | 3 | 9 | MED | (update after review) |
-| 80 | http | 3 | 3 | 9 | MED | (update after review) |
-| 9929 | nping-echo | 3 | 3 | 9 | MED | (update after review) |
-| 31337 | tcpwrapped | 3 | 3 | 9 | MED | (update after review) |
+| 22 | ssh | 3 | 3 | 9 | MED | (updated after review) |
+| 80 | http | 3 | 3 | 9 | MED | (updated after review) |
+| 9929 | nping-echo | 3 | 3 | 9 | LOW | (updated after review) |
+| 31337 | tcpwrapped | 3 | 3 | 9 | MED | (updated after review) |
 
 ---
 
@@ -106,4 +106,8 @@ Artifacts:
 ---
 
 ## Appendix
-All raw artifacts preserved in this run directory.
+
+All raw artifacts are preserved under:
+
+runs/2026-02-04_204015_scanme.nmap.org/
+
